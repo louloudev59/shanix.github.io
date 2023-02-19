@@ -1,6 +1,6 @@
 $(function() {
-  // This will select everything with the class smoothScroll
-  // This should prevent problems with carousel, scrollspy, etc...
+// Cela sélectionnera tout avec la classe smoothScroll
+   // Cela devrait éviter les problèmes de carrousel, scrollspy, etc...
   $('.smoothScroll').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       var target = $(this.hash);
@@ -8,7 +8,7 @@ $(function() {
       if (target.length) {
         $('html,body').animate({
           scrollTop: target.offset().top
-        }, 1000); // The number here represents the speed of the scroll in milliseconds
+        }, 1000); // Le nombre ici représente la vitesse de défilement en millisecondes
         return false;
       }
     }

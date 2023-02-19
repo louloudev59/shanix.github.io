@@ -7,7 +7,7 @@
   --secondary-text-color: #dcdcdc;
 }
 
-/* scroll bar */
+/* scroll barre */
 
 ::-webkit-scrollbar {
   width: 8px;
@@ -142,7 +142,7 @@ a {
   color: var(--main-color);
 }
 
-/* accordion */
+/* accordéon */
 
 * {
   box-sizing: border-box;
